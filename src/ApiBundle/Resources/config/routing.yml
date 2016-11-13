@@ -1,0 +1,7 @@
+store-request:
+    path:     /storeRequest/{route}
+    defaults: { _controller: ApiBundle:Default:storeRequest }
+
+get-request:
+    path:     /getRequest/
+    defaults: { _controller: ApiBundle:Default:getRequest }
